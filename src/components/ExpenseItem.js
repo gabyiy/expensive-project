@@ -5,7 +5,7 @@ import Card from "./Card";
 function ExpenseItem(props) {
   return (
     //iar aici adaugam clasele care le avem disponibile din css
-    <Card className="expense-item1">
+    <Card className="expense-item">
       <ExpenseDate date={props.date} />
       <div className="expense-item__description">
         <h2>{props.title}</h2>

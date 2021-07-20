@@ -3,7 +3,7 @@ import ExpenseItem from "./ExpenseItem";
 import Card from "./Card";
 function Expense(props) {
   return (
-    <Card className="expenses1">
+    <Card className="expenses">
       <ExpenseItem
         title={props.items[0].title}
         amount={props.items[0].amount}
